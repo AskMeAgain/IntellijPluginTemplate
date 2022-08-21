@@ -31,9 +31,7 @@ Everything is already setup and an explanation for all needed manual steps is on
        https://plugins.jetbrains.com/author/me
 
 2. click on your profile
-
 3. Upload plugin
-
 4. fill out everything (use unstable channel for testing)
 
 ### Initialize secrets
