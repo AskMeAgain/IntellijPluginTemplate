@@ -58,18 +58,23 @@ Everything is already setup and an explanation for all needed manual steps is on
 3. Actions
 4. New Repository Secret
 5. Create the following 4 secrets
-    * | Name                 | Content                                                        |
-      |----------------------------------------------------------------|--------------------------------------------------------------|
+    * | Name                 | Content                                                     |
+      |----------------------|--------------------------------------------------------------|
       | CERTIFICATE_CHAIN    | The file is called CERTIFICATE_CHAIN.crt in the secrets folder |
-      | PRIVATE_KEY          | The file is called PRIVATE_KEY.pem inside the secrets folder   |
-      | PRIVATE_KEY_PASSWORD | the password you entered while executing create-secrets.sh     |
-      | PUBLISH_TOKEN        | The token from the intellij website                            |
+      | PRIVATE_KEY          | The file is called PRIVATE_KEY.pem inside the secrets folder |
+      | PRIVATE_KEY_PASSWORD | the password you entered while executing create-secrets.sh  |
+      | PUBLISH_TOKEN        | The token from the intellij website                         |
     * For the files, just copy the content into the window text field without any formatting
+
+### Create a store page
+
+Fill our `marketplace-description.html`. This will be shown in the Intellij Marketplace store page
 
 ### How to make a release
 
 If you have created your first manual release, you can for now create all released by hand
 
+0. Fill out `marketplace-changenotes.html`
 1. Just create a new GitHub release
 2. The git tag will be your version. 
 3. Name it "v1.0.0" or "v0.1.2" or "v10.0.123"
