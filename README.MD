@@ -8,21 +8,16 @@ Everything is already setup and an explanation for all needed manual steps is on
 
 ### Download template
 
-1. Clone template
+In Github just click the green "Use this template" button
 
-       git clone git@github.com:AskMeAgain/IntellijPluginTemplate.git
+### Develop your plugin
 
-2. Remove old git folder
+Develop the plugin.
 
-       cd IntellijPluginTemplate && rm -Rf .git
-
-3. Setup new git repo
-
-       git init
-
-### Create Github repository
-
-1. Publish the repository to Github (keep private for now)
+PS: the docu is pretty shitty and google is not your
+friend here if you want to do anything more complicated. 
+You have to ask in the Intellij Forum quite some times, but you 
+will always get an answer.
 
 ### Create a manual release of the plugin
 
@@ -32,7 +27,7 @@ Everything is already setup and an explanation for all needed manual steps is on
 
 2. click on your profile
 3. Upload plugin
-4. fill out everything (use unstable channel for testing)
+4. fill out everything (use unstable channel for the manual release)
 
 ### Initialize secrets
 
@@ -68,16 +63,20 @@ Everything is already setup and an explanation for all needed manual steps is on
 
 Fill our `marketplace-description.html`. This will be shown in the Intellij Marketplace store page
 
+For updates, change `marketplace-changenotes.html`.
+
 ### How to make a release
 
 If you have created your first manual release, you can for now create all released by hand
 
-0. Fill out `marketplace-changenotes.html`
+0. Dont forget to fill out `marketplace-changenotes.html`
 1. Just create a new GitHub release
 2. The git tag will be your version. 
-3. Name it "v1.0.0" or "v0.1.2" or "v10.0.123"
+3. Name it "1.0.0" or "0.1.2" or "10.0.123"
 4. It will always be pushed to Stable (the marketplace)
-5. If it worked you will receive an email
+5. If the upload worked you will receive an email
+6. You will receive another email if the manual approval went through.
+7. Profit!
 
 
 
