@@ -10,3 +10,4 @@ openssl genpkey -aes-256-cbc -algorithm RSA -out PRIVATE_KEY.pem -pkeyopt rsa_ke
 
 openssl req -key PRIVATE_KEY.pem -new -x509 -days 365 -out CERTIFICATE_CHAIN.crt
 
+openssl rsa -in PRIVATE_KEY.pem -out PRIVATE_KEY.pem
