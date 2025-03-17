@@ -27,7 +27,7 @@ intellijPlatform {
         vendor {
             name = 'AskMeAgain'
             email = '-'
-            url = 'https://github.com/AskMeAgain/BookmarkKeeper'
+            url = 'https://github.com/AskMeAgain/IntellijPluginTemplate'
         }
     }
 }
@@ -44,7 +44,7 @@ test {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 

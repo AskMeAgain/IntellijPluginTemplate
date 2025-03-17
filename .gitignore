@@ -4,3 +4,4 @@
 .gradle
 /secrets/
 /.idea/
+/.intellijPlatform/
