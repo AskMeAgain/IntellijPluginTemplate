@@ -1,6 +1,7 @@
 # Intellij Plugin Template
 
-This is a complete template to push your Plugins much faster to the store.
+This is a complete template to push your Plugins much faster to the store. 
+Updated to use the new pluugin system 2.0.0 from intellij & java 21
 
 Everything is already setup and an explanation for all needed manual steps is on the bottom.
 
@@ -12,12 +13,7 @@ In Github just click the green "Use this template" button
 
 ### Develop your plugin
 
-Develop the plugin.
-
-PS: the docu is pretty shitty and google is not your
-friend here if you want to do anything more complicated. 
-You have to ask in the Intellij Forum quite some times, but you 
-will always get an answer.
+Develop the plugin :)
 
 ### Create a manual release of the plugin
 
@@ -61,7 +57,7 @@ will always get an answer.
 
 ### Create a store page
 
-Fill our `marketplace-description.html`. This will be shown in the Intellij Marketplace store page
+Fill out `marketplace-description.html`. This will be shown in the Intellij Marketplace store page
 
 For updates, change `marketplace-changenotes.html`.
 
