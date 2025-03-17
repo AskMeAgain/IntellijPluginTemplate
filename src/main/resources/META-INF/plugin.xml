@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>intellij.plugin.template</id>
     <name>IntellijPluginTemplate</name>
-    <version>0.1</version>
+    <version>0.0.1</version>
     <vendor url="github url">You</vendor>
 
     <description>
