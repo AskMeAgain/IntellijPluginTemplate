@@ -25,9 +25,9 @@ jobs:
       id: vars
       run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
     - name: Run tests
-      run: gradle test
+      run: ./gradlew test
     - name: Push to market place
-      run: gradle publishPlugin
+      run: ./gradlew publishPlugin
       env:
         RELEASE_VERSION: ${{ steps.vars.outputs.tag }}
         PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
