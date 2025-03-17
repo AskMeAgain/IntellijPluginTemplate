@@ -3,4 +3,4 @@
 /build/
 .gradle
 /secrets/
-/.idea2/
+/.idea/
