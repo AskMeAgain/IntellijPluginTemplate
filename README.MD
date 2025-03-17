@@ -1,7 +1,7 @@
 # Intellij Plugin Template
 
 This is a complete template to push your Plugins much faster to the store. 
-Updated to use the new pluugin system 2.0.0 from intellij & java 21
+Updated to use the new pluugin system 2.0.0 from intellij & java 17
 
 Everything is already setup and an explanation for all needed manual steps is on the bottom.
 
